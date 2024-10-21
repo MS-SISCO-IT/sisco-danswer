@@ -127,3 +127,8 @@ To try the Danswer Enterprise Edition:
 
 ## 💡 Contributing
 Looking to contribute? Please check out the [Contribution Guide](CONTRIBUTING.md) for more details.
+
+
+cd deployment/docker_compose && docker compose -f docker-compose.dev.yml -p danswer-stack up -d --build
+
+cd deployment/docker_compose && docker compose -f docker-compose.dev.yml -p danswer-stack up -d
